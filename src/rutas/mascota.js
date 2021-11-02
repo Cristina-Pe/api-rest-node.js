@@ -47,6 +47,10 @@ const jwt = require("jsonwebtoken");
  *              fec_nac: 26/02/2019
  */
 
+//Prueba para despliegue
+ router.get('/pruebaDespliegue', (req, res) => {
+     res.send('Holaaa la aplicación funciona :)')
+});
 /**
  * @swagger
  * /lismascotas:
